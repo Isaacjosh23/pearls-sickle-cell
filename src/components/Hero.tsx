@@ -59,7 +59,7 @@ function Hero() {
           Building a Sickle Cell Enlightened Society
         </h1>
 
-        <p className="text-cream/70 text-[1.6rem] md:text-[1.8rem] max-w-3xl leading-relaxed mb-[2rem] text-red-100">
+        <p className="text-cream/70 text-[1.6rem] md:text-[1.8rem] max-w-3xl leading-relaxed mb-8 text-red-100">
           At Pearls Sickle Cell Initiative, we are committed to raising
           awareness, promoting early genotype testing, and supporting
           individuals living with sickle cell disorder. Through advocacy,

@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Hero from "@/components/Hero";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
       {/* Hero Section */}
       <Hero />
       {/* About us Section */}
+      <AboutUs />
       {/* About Founder Section */}
       {/* Contact us Section */}
     </main>
