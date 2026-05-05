@@ -8,7 +8,7 @@ import TubeIcon from "./ui/icons/tube";
 
 function AboutUs() {
   return (
-    <section className="py-[6.4rem] px-[2.4rem] md:px-[4.8rem] bg-cream">
+    <section className="py-[6.4rem] px-[2.4rem] md:px-[4.8rem] bg-white">
       <div className="max-w-480 mx-auto">
         <p className="text-gold text-[1.1rem] md:text-[1.2rem] lg:text-[1.4rem] tracking-[0.3em] uppercase mb-[1.6rem] text-red-900 font-semibold">
           About Us
