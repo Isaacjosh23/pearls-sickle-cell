@@ -8,6 +8,7 @@ export const Icons = {
   Care: "care",
   Check: "check",
   Close: "close",
+  CopyRight: "copyright",
   Email: "email",
   Eye: "eye",
   Gavel: "gaval",

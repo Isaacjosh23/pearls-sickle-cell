@@ -81,6 +81,21 @@ function Hero() {
           <div className="h-px w-[6.4rem] md:w-[12.8rem] bg-white/40" />
         </div>
       </div>
+
+      <div className="absolute bottom-16 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4">
+        {heroSlides.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => goToSlide(i)}
+            aria-label={`Go to slide ${i + 1}`}
+            className={`rounded-full transition-all duration-500 cursor-pointer ${
+              i === current
+                ? "w-[3.2rem] h-1.5 bg-gold"
+                : "w-1.5 h-1.5 bg-cream/40 hover:bg-cream/70"
+            }`}
+          />
+        ))}
+      </div>
     </section>
   );
 }
