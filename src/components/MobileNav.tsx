@@ -4,9 +4,10 @@ import Link from "next/link";
 
 interface MobileNavProps {
   isOpen: boolean;
+  onClose: () => void;
 }
 
-function MobileNav({ isOpen }: MobileNavProps) {
+function MobileNav({ isOpen, onClose }: MobileNavProps) {
   const pathname = usePathname();
   return (
     <div
@@ -19,6 +20,7 @@ function MobileNav({ isOpen }: MobileNavProps) {
           <Link
             key={link.href}
             href={link.href}
+            onClick={onClose}
             className={`text-[1.6rem] font-medium tracking-wide py-[1.2rem] border-b border-cream/10 transition-colors duration-200 ${
               pathname === link.href
                 ? "text-neutral-100"
