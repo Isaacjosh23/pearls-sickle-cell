@@ -1,6 +1,6 @@
 import Image from "next/image";
-import AboutOne from "@/assets/images/about-us/about-1.jpg";
-import AboutTwo from "@/assets/images/about-us/about-2.jpg";
+import AboutOne from "../../../../public/assets/images/about-us/about-1.jpg";
+import AboutTwo from "../../../../public/assets/images/about-us/about-2.jpg";
 
 function Intro() {
   return (

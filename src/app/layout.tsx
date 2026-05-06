@@ -20,6 +20,9 @@ const dmSans = DM_Sans({
 export const metadata = {
   title: "Pearls Sickle Cell Initiative",
   description: "Fighting sickle cell disease, together.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

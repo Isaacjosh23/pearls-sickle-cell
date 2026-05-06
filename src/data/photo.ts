@@ -5,19 +5,19 @@ export interface HeroSlide {
 
 export const heroSlides: HeroSlide[] = [
   {
-    src: "/images/hero/hero-1.jpg",
+    src: "/assets/images/hero/hero-1.jpg",
     alt: "Hero slide 1",
   },
   {
-    src: "/images/hero/hero-2.jpg",
+    src: "/assets/images/hero/hero-2.jpg",
     alt: "Hero slide 2",
   },
   {
-    src: "/images/hero/hero-3.jpg",
+    src: "/assets/images/hero/hero-3.jpg",
     alt: "Hero slide 3",
   },
   {
-    src: "/images/hero/hero-4.jpg",
+    src: "/assets/images/hero/hero-4.jpg",
     alt: "Hero slide 4",
   },
 ];
