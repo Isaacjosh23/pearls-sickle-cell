@@ -1,5 +1,6 @@
 import { DM_Serif_Display, DM_Sans } from "next/font/google";
 import "./globals.css";
+import NavBar from "@/components/NavBar";
 
 const dmSerif = DM_Serif_Display({
   subsets: ["latin"],
@@ -17,7 +18,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata = {
-  title: "Sickle Cell Charity",
+  title: "Pearls Sickle Cell Initiative",
   description: "Fighting sickle cell disease, together.",
 };
 
@@ -28,7 +29,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${dmSerif.variable} ${dmSans.variable}`}>
-      <body>{children}</body>
+      <body>
+        <NavBar />
+        {children}
+      </body>
     </html>
   );
 }
