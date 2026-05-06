@@ -7,7 +7,7 @@ import InstagramIcon from "./ui/icons/instagram";
 import CallIcon from "./ui/icons/call";
 import LocationIcon from "./ui/icons/location";
 import Image from "next/image";
-import Logo from "@/assets/images/Logo-3.png";
+import Logo from "../../public/assets/images/Logo-3.png";
 
 function Footer() {
   return (

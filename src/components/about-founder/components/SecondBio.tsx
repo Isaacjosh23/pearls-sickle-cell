@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FounderTwo from "@/assets/images/founder/titi-1.jpg";
+import FounderTwo from "../../../../public/assets/images/founder/titi-1.jpg";
 import Awards from "./Awards";
 
 function SecondBio() {

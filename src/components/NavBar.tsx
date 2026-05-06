@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import MenuIcon from "./ui/icons/menu";
 import MobileNav from "./MobileNav";
 import CloseIcon from "./ui/icons/close";
-import Logo from "@/assets/images/Logo-3.png";
+import Logo from "../../public/assets/images/Logo-3.png";
 import Image from "next/image";
 
 export const navLinks = [
