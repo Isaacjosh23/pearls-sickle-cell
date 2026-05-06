@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import MenuIcon from "./ui/icons/menu";
 import MobileNav from "./MobileNav";
 import CloseIcon from "./ui/icons/close";
+import Logo from "@/assets/images/Logo-3.png";
+import Image from "next/image";
 
 export const navLinks = [
   { label: "Home", href: "#hero" },
@@ -32,7 +34,7 @@ function NavBar() {
         });
       },
       {
-        rootMargin: "-60% 0px -55% 0px", // triggers when section is in the middle of the viewport
+        rootMargin: "-60% 0px -55% 0px",
       },
     );
 
@@ -51,8 +53,19 @@ function NavBar() {
     >
       <div className="max-w-480 mx-auto px-[2.4rem] md:px-[4.8rem]">
         <div className="flex items-center justify-between h-28">
-          <Link href="/" className="flex flex-col leading-none group">
-            <p>Logo here</p>
+          <Link
+            href="/"
+            className="flex items-center justify-center leading-none group"
+          >
+            <Image
+              src={Logo}
+              alt="Pearls Sickle Cell Logo"
+              className="w-14 md:w-16 h-auto "
+            />
+
+            <p className="font-display text-white text-[1.2rem] md:text-[1.4rem] tracking-[0.08em] uppercase ml-2 group-hover:text-gold transition-colors">
+              Pearls <br /> Sickle <br /> Initiative
+            </p>
           </Link>
 
           <div className="hidden md:flex items-center gap-[3.2rem]">
@@ -87,7 +100,7 @@ function NavBar() {
         </div>
       </div>
 
-      <MobileNav isOpen={menuOpen} />
+      <MobileNav isOpen={menuOpen} onClose={() => setMenuOpen(false)} />
     </nav>
   );
 }

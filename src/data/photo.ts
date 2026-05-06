@@ -5,19 +5,19 @@ export interface HeroSlide {
 
 export const heroSlides: HeroSlide[] = [
   {
-    src: "https://placehold.co/1200x600/2C1A0A/D4A84B?text=Slide+1",
+    src: "/images/hero/hero-1.jpg",
     alt: "Hero slide 1",
   },
   {
-    src: "https://placehold.co/1200x600/1A3A2C/4BD498?text=Slide+2",
+    src: "/images/hero/hero-2.jpg",
     alt: "Hero slide 2",
   },
   {
-    src: "https://placehold.co/1200x600/0A1A2C/4B9FD8?text=Slide+3",
+    src: "/images/hero/hero-3.jpg",
     alt: "Hero slide 3",
   },
   {
-    src: "https://placehold.co/1200x600/2C0A1A/D84B7B?text=Slide+4",
+    src: "/images/hero/hero-4.jpg",
     alt: "Hero slide 4",
   },
 ];

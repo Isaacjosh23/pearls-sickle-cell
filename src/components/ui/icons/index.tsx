@@ -4,6 +4,7 @@ import CallIcon from "./call";
 import CareIcon from "./care";
 import CheckIcon from "./check";
 import CloseIcon from "./close";
+import CopyRightIcon from "./copyright";
 import EmailIcon from "./email";
 import EyeIcon from "./eye";
 import GavelIcon from "./gaval";
@@ -36,6 +37,9 @@ export function Icon({ type, className }: Props) {
 
     case Icons.Close:
       return <CloseIcon {...props} />;
+
+    case Icons.CopyRight:
+      return <CopyRightIcon {...props} />;
 
     case Icons.Email:
       return <EmailIcon {...props} />;
