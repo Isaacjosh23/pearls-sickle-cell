@@ -1,9 +1,14 @@
 import { IconProps, Icons } from "./_types";
 import AnnounceIcon from "./announce";
+import CallIcon from "./call";
 import CareIcon from "./care";
 import CheckIcon from "./check";
 import CloseIcon from "./close";
+import EmailIcon from "./email";
+import EyeIcon from "./eye";
 import GavelIcon from "./gaval";
+import InstagramIcon from "./instagram";
+import LocationIcon from "./location";
 import MedicalIcon from "./medical";
 import MenuIcon from "./menu";
 import TargetIcon from "./target";
@@ -20,6 +25,9 @@ export function Icon({ type, className }: Props) {
     case Icons.Announce:
       return <AnnounceIcon {...props} />;
 
+    case Icons.Call:
+      return <CallIcon {...props} />;
+
     case Icons.Care:
       return <CareIcon {...props} />;
 
@@ -29,8 +37,20 @@ export function Icon({ type, className }: Props) {
     case Icons.Close:
       return <CloseIcon {...props} />;
 
+    case Icons.Email:
+      return <EmailIcon {...props} />;
+
+    case Icons.Eye:
+      return <EyeIcon {...props} />;
+
     case Icons.Gavel:
       return <GavelIcon {...props} />;
+
+    case Icons.Instagram:
+      return <InstagramIcon {...props} />;
+
+    case Icons.Location:
+      return <LocationIcon {...props} />;
 
     case Icons.Medical:
       return <MedicalIcon {...props} />;

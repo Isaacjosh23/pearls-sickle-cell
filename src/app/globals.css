@@ -2,11 +2,17 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-size: 1.6rem;
   font-family: var(--font-body);
+}
+
+section,
+nav {
+  scroll-margin-top: 6.4rem !important;
 }
 
 @theme {
