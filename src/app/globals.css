@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-family: var(--font-body);
+}
+
+section,
+nav {
+  scroll-margin-top: 6.4rem !important;
+}
+
+@theme {
+  /* Fonts */
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+
+  /* Red Scale */
+  --color-red-50: #fff0f0;
+  --color-red-100: #ffcccc;
+  --color-red-200: #ff9999;
+  --color-red-300: #ff6666;
+  --color-red-400: #f54442;
+  --color-red-500: #e8302e;
+  --color-red-600: #c0201e;
+  --color-red-700: #a01614;
+  --color-red-800: #8b0f0d;
+  --color-red-900: #5c0504;
+
+  /* Warm Neutrals */
+  --color-neutral-50: #fdf8f8;
+  --color-neutral-100: #f5eded;
+  --color-neutral-200: #ecd9d9;
+  --color-neutral-300: #d9c9c9;
+  --color-neutral-400: #bfa9a9;
+  --color-neutral-500: #9e8585;
+  --color-neutral-600: #7a6363;
+  --color-neutral-700: #5c4a4a;
+  --color-neutral-800: #3d2d2d;
+  --color-neutral-900: #2c1a1a;
+
+  /* Pure White */
+  --color-white: #ffffff;
+
+  /* Accent & Semantic */
+  --color-accent: #f97b4a;
+  --color-success: #2e7d52;
+  --color-info: #1a5276;
+  --color-warning: #c47a1e;
+  --color-error: #e8302e;
 }
