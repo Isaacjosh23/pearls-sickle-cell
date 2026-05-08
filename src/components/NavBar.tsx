@@ -64,7 +64,7 @@ function NavBar() {
             />
 
             <p className="font-display text-white text-[1.2rem] md:text-[1.4rem] tracking-[0.08em] uppercase ml-2 group-hover:text-gold transition-colors">
-              Pearls <br /> Sickle <br /> Initiative
+              Pearls <br /> Sickle <br /> Cell <br /> Initiative
             </p>
           </Link>
 
