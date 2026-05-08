@@ -21,7 +21,7 @@ function Footer() {
               className="w-14 md:w-16 h-auto "
             />
             <p className="font-display text-[2.4rem] text-white">
-              Pearls Sickle Initiative
+              Pearls Sickle Cell Initiative
             </p>
             <p className="font-body text-[1.4rem] leading-[1.8] text-neutral-400">
               Join us. Learn. Act. Make a difference.
