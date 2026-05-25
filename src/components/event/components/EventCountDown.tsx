@@ -48,7 +48,7 @@ function EventCountDown() {
           </p>
         </div>
       ) : (
-        <div className="flex items-end gap-[1.6rem] md:gap-[2.4rem]">
+        <div className="flex items-center justify-center gap-[1.6rem] md:gap-[2.4rem]">
           <CountdownUnit value={timeLeft.days} label="Days" />
           <span className="font-display text-[3.6rem] md:text-[4.8rem] text-teal-400/50 mb-[2.8rem] leading-none">
             :
