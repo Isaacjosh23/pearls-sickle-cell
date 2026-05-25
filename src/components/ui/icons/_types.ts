@@ -4,6 +4,7 @@ export interface IconProps {
 
 export const Icons = {
   Announce: "announce",
+  Calender: "calender",
   Call: "call",
   Care: "care",
   Check: "check",

@@ -1,5 +1,6 @@
 import { IconProps, Icons } from "./_types";
 import AnnounceIcon from "./announce";
+import CalenderIcon from "./calender";
 import CallIcon from "./call";
 import CareIcon from "./care";
 import CheckIcon from "./check";
@@ -25,6 +26,9 @@ export function Icon({ type, className }: Props) {
   switch (type) {
     case Icons.Announce:
       return <AnnounceIcon {...props} />;
+
+    case Icons.Calender:
+      return <CalenderIcon {...props} />;
 
     case Icons.Call:
       return <CallIcon {...props} />;
