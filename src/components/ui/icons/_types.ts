@@ -4,9 +4,11 @@ export interface IconProps {
 
 export const Icons = {
   Announce: "announce",
+  Calender: "calender",
   Call: "call",
   Care: "care",
   Check: "check",
+  Clock: "clock",
   Close: "close",
   CopyRight: "copyright",
   Email: "email",
