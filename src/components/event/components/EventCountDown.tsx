@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import CountdownUnit from "./CountdownUnit";
 import calculateTimeLeft from "./calculateTime";
+import EventCTA from "./EventCTA";
 
 export const EVENT_DATE = new Date("2026-06-20T09:00:00");
 
@@ -37,7 +38,7 @@ function EventCountDown() {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-col gap-16 items-center">
       {eventPassed ? (
         <div className="flex flex-col items-center gap-[1.6rem]">
           <p className="font-display text-[2.8rem] text-teal-400">
@@ -64,6 +65,8 @@ function EventCountDown() {
           <CountdownUnit value={timeLeft.seconds} label="Seconds" />
         </div>
       )}
+
+      {!eventPassed && <EventCTA />}
     </div>
   );
 }
