@@ -4,6 +4,7 @@ import CalenderIcon from "./calender";
 import CallIcon from "./call";
 import CareIcon from "./care";
 import CheckIcon from "./check";
+import ClockIcon from "./clock";
 import CloseIcon from "./close";
 import CopyRightIcon from "./copyright";
 import EmailIcon from "./email";
@@ -38,6 +39,9 @@ export function Icon({ type, className }: Props) {
 
     case Icons.Check:
       return <CheckIcon {...props} />;
+
+    case Icons.Clock:
+      return <ClockIcon {...props} />;
 
     case Icons.Close:
       return <CloseIcon {...props} />;

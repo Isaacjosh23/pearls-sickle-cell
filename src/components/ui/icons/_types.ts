@@ -8,6 +8,7 @@ export const Icons = {
   Call: "call",
   Care: "care",
   Check: "check",
+  Clock: "clock",
   Close: "close",
   CopyRight: "copyright",
   Email: "email",
