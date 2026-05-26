@@ -14,7 +14,7 @@ function Achievements() {
           "Fostered a sickle cell support community in Ilorin & beyond.",
         ].map((item) => (
           <div key={item} className="flex items-center gap-[1.6rem]">
-            <CheckIcon className="size-16 text-success p-2.5 rounded-full shrink-0" />
+            <CheckIcon className="size-16 text-teal-400 p-2.5 rounded-full shrink-0" />
             <p className="font-body text-neutral-800 text-[1.6rem] md:text-[1.8rem] leading-relaxed">
               {item}
             </p>

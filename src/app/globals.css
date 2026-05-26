@@ -8,6 +8,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: var(--font-body);
+  overflow-x: hidden;
 }
 
 section,
@@ -53,4 +54,16 @@ nav {
   --color-info: #1a5276;
   --color-warning: #c47a1e;
   --color-error: #e8302e;
+
+  /* Teal / Turquoise — from logo */
+  --color-teal-50: #f0fafa;
+  --color-teal-100: #c8eeee;
+  --color-teal-200: #96dddd;
+  --color-teal-300: #5fcece;
+  --color-teal-400: #3bbfbf;
+  --color-teal-500: #2aa8a8;
+  --color-teal-600: #1d8f8f;
+  --color-teal-700: #147474;
+  --color-teal-800: #0d5757;
+  --color-teal-900: #073a3a;
 }

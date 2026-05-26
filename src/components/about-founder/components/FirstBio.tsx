@@ -11,6 +11,7 @@ function FirstBio() {
           width={360}
           height={460}
           className="w-full h-auto rounded-lg object-cover"
+          style={{ height: "auto" }}
         />
       </div>
 
