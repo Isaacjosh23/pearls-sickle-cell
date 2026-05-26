@@ -19,6 +19,8 @@ function EventCountDown() {
   const [eventPassed, setEventPassed] = useState(false);
 
   useEffect(() => {
+    setTimeLeft(calculateTimeLeft());
+
     const timer = setInterval(() => {
       const remaining = calculateTimeLeft();
       setTimeLeft(remaining);
@@ -36,6 +38,8 @@ function EventCountDown() {
 
     return () => clearInterval(timer);
   }, []);
+
+  if (!timeLeft) return null;
 
   return (
     <div className="flex flex-col gap-16 items-center">
