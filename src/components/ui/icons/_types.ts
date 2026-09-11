@@ -18,6 +18,7 @@ export const Icons = {
   Location: "location",
   Medical: "medical",
   Menu: "menu",
+  Phone: "phone",
   Target: "target",
   Tube: "tube",
 } as const;

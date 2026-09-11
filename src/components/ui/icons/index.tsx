@@ -14,6 +14,7 @@ import InstagramIcon from "./instagram";
 import LocationIcon from "./location";
 import MedicalIcon from "./medical";
 import MenuIcon from "./menu";
+import PhoneIcon from "./phone";
 import TargetIcon from "./target";
 import TubeIcon from "./tube";
 
@@ -69,6 +70,9 @@ export function Icon({ type, className }: Props) {
 
     case Icons.Menu:
       return <MenuIcon {...props} />;
+
+    case Icons.Phone:
+      return <PhoneIcon {...props} />;
 
     case Icons.Target:
       return <TargetIcon {...props} />;
