@@ -7,7 +7,7 @@ function EventTopLabel() {
         Upcoming Event
       </p>
       <h2 className="font-display text-[3.2rem] md:text-[4.4rem] leading-tight text-white max-w-6xl">
-        Pearls Sickle Cell Awareness & Free Genotype Testing 🎗️
+        Pearls Sickle Cell Awareness - 2026 Sickle Cell Warrior Hangout 🎗️
       </h2>
       <p className="font-body text-[1.5rem] md:text-[1.6rem] text-neutral-400 leading-[1.8] max-w-4xl">
         Theme: Closing the Survival Gap: Equity in Sickle Cell Disease
