@@ -11,7 +11,7 @@ function MobileNav({ isOpen, onClose }: MobileNavProps) {
   const pathname = usePathname();
   return (
     <div
-      className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${
+      className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out relative z-50 ${
         isOpen ? "max-h-160 opacity-100" : "max-h-0 opacity-0"
       }`}
     >

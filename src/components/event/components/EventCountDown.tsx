@@ -5,7 +5,7 @@ import CountdownUnit from "./CountdownUnit";
 import calculateTimeLeft from "./calculateTime";
 import EventCTA from "./EventCTA";
 
-export const EVENT_DATE = new Date("2026-06-20T09:00:00");
+export const EVENT_DATE = new Date("2026-09-19T11:00:00");
 
 export interface TimeLeft {
   days: number;

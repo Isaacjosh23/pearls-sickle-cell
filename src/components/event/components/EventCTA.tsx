@@ -1,6 +1,6 @@
 "use client";
 
-const GOOGLE_FORM_URL = "https://forms.gle/1aPEG54d9yqyDZHP9";
+const GOOGLE_FORM_URL = "https://forms.gle/YaV3DK2CLbtMCRvRA";
 
 function EventCTA() {
   return (
